@@ -1,0 +1,231 @@
+{
+  "name": "Ayu Mirage",
+  "dark": true,
+  "author": "Pankaj Mishra",
+  "editorScheme": "/theme/ayu_mirage.xml",
+  "colors": {
+    "editorBackground": "#242835",
+    "uiBackground": "#353944",
+    "foreground": "#cbccc6",
+    "accent": "#ffcc66",
+    "secondaryAccent": "#5ccfe6",
+    "selectionBackground": "#34455a",
+    "selectionForeground": "#ffffff",
+    "borderColor": "#1f2430",
+    "separatorColor": "#191e2a",
+    "barBackground": "#464A52"
+  },
+  "ui": {
+    "*": {
+      "background": "uiBackground",
+      "foreground": "foreground",
+      "borderColor": "borderColor",
+      "separatorColor": "separatorColor",
+      "focusColor": "uiBackground",
+      "focusedBorderColor": "accent",
+      "selectionBackground": "selectionBackground",
+      "selectionForeground": "selectionForeground",
+      "inactiveBackground": "uiBackground",
+      "disabledBackground": "uiBackground"
+    },
+    "ActionButton": {
+      "hoverBackground": "#191e2a",
+      "hoverBorderColor": "borderColor",
+      "pressedBackground": "#232834",
+      "pressedBorderColor": "borderColor"
+    },
+    "Button": {
+      "startBackground": "#232834",
+      "endBackground": "#232834",
+      "startBorderColor": "#191e2a",
+      "endBorderColor": "#191e2a",
+      "foreground": "foreground",
+      "focusedBorderColor": "accent",
+      "default": {
+        "startBackground": "accent",
+        "endBackground": "accent",
+        "foreground": "#1f2430",
+        "startBorderColor": "accent",
+        "endBorderColor": "accent"
+      }
+    },
+    "ComboBox": {
+      "background": "uiBackground",
+      "nonEditableBackground": "uiBackground",
+      "selectionBackground": "#191e2a",
+      "ArrowButton": {
+        "background": "uiBackground",
+        "nonEditableBackground": "uiBackground"
+      }
+    },
+    "Component": {
+      "borderColor": "borderColor",
+      "focusedBorderColor": "accent"
+    },
+    "Editor": {
+      "background": "editorBackground",
+      "foreground": "foreground"
+    },
+    "EditorPane": {
+      "background": "editorBackground",
+      "foreground": "foreground"
+    },
+    "EditorTabs": {
+      "background": "uiBackground",
+      "underlinedTabBackground": "uiBackground",
+      "underlineColor": "accent",
+      "hoverBackground": "#191e2a",
+      "inactiveUnderlineColor": "borderColor"
+    },
+    "Label": {
+      "foreground": "foreground"
+    },
+    "Link": {
+      "activeForeground": "secondaryAccent",
+      "hoverForeground": "secondaryAccent",
+      "pressedForeground": "secondaryAccent",
+      "visitedForeground": "secondaryAccent"
+    },
+    "List": {
+      "background": "uiBackground",
+      "foreground": "foreground",
+      "selectionBackground": "#191e2a",
+      "selectionForeground": "accent",
+      "selectionInactiveBackground": "#191e2a"
+    },
+    "Menu": {
+      "background": "uiBackground",
+      "foreground": "foreground",
+      "borderColor": "borderColor"
+    },
+    "MenuBar": {
+      "background": "barBackground",
+      "foreground": "foreground"
+    },
+    "MenuItem": {
+      "background": "uiBackground",
+      "foreground": "foreground",
+      "selectionBackground": "#191e2a",
+      "selectionForeground": "accent"
+    },
+    "Panel": {
+      "background": "uiBackground",
+      "foreground": "foreground"
+    },
+    "Popup": {
+      "background": "uiBackground",
+      "borderColor": "borderColor",
+      "Header": {
+        "activeBackground": "uiBackground",
+        "inactiveBackground": "uiBackground"
+      }
+    },
+    "ScrollBar": {
+      "background": "uiBackground",
+      "thumbColor": "#5c6773",
+      "hoverThumbColor": "#707a8c",
+      "trackColor": "uiBackground"
+    },
+    "Separator": {
+      "separatorColor": "separatorColor"
+    },
+    "TabbedPane": {
+      "background": "uiBackground",
+      "contentAreaColor": "editorBackground",
+      "underlineColor": "accent",
+      "focusColor": "uiBackground"
+    },
+    "Table": {
+      "background": "uiBackground",
+      "foreground": "foreground",
+      "selectionBackground": "#191e2a",
+      "selectionForeground": "accent"
+    },
+    "TextField": {
+      "background": "uiBackground",
+      "foreground": "foreground",
+      "selectionBackground": "selectionBackground"
+    },
+    "TextPane": {
+      "background": "uiBackground",
+      "foreground": "foreground"
+    },
+    "ToolBar": {
+      "background": "barBackground",
+      "foreground": "foreground",
+      "borderColor": "barBackground"
+    },
+    "ToolWindow": {
+      "background": "uiBackground",
+      "Button": {
+        "hoverBackground": "#191e2a"
+      },
+      "Header": {
+        "background": "uiBackground",
+        "inactiveBackground": "uiBackground",
+        "borderColor": "borderColor"
+      },
+      "HeaderTab": {
+        "underlinedTabBackground": "uiBackground",
+        "underlineColor": "accent",
+        "inactiveUnderlineColor": "borderColor",
+        "underlineHeight": 2
+      }
+    },
+    "Tree": {
+      "background": "uiBackground",
+      "foreground": "foreground",
+      "selectionBackground": "#191e2a",
+      "selectionForeground": "accent",
+      "selectionInactiveBackground": "#191e2a",
+      "rowHeight": 24,
+      "hash": "borderColor"
+    },
+    "Viewport": {
+      "background": "uiBackground",
+      "foreground": "foreground"
+    },
+    "WelcomeScreen": {
+      "background": "uiBackground",
+      "Projects": {
+        "background": "uiBackground",
+        "selectionBackground": "#191e2a",
+        "selectionInactiveBackground": "uiBackground"
+      },
+      "SidePanel": {
+        "background": "uiBackground"
+      }
+    },
+    "StatusBar": {
+      "background": "barBackground",
+      "borderColor": "barBackground",
+      "foreground": "foreground"
+    },
+    "MainToolbar": {
+      "background": "barBackground",
+      "foreground": "foreground",
+      "inactiveBackground": "barBackground"
+    },
+    "NavBar": {
+      "background": "barBackground",
+      "foreground": "foreground",
+      "borderColor": "barBackground"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#5ccfe6",
+      "Actions.Green": "#bae67e",
+      "Actions.Red": "#ff3333",
+      "Actions.Yellow": "#ffcc66",
+      "Actions.Grey": "#5c6773",
+      "Actions.Gray": "#5c6773",
+      "Objects.Blue": "#5ccfe6",
+      "Objects.Green": "#bae67e",
+      "Objects.Red": "#ff3333",
+      "Objects.Yellow": "#ffcc66",
+      "Objects.Grey": "#5c6773",
+      "Objects.Gray": "#5c6773"
+    }
+  }
+}

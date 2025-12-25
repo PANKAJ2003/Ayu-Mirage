@@ -1,0 +1,49 @@
+<idea-plugin>
+
+    <id>com.github.pankaj2003.ayumirage</id>
+
+    <name>Ayu Mirage Dark</name>
+    <version>2.1.0</version>
+
+    <category>Themes</category>
+
+    <vendor
+            email="pankajmishra.work31@gmail.com"
+            url="https://github.com/pankaj2003">
+        Pankaj Mishra
+    </vendor>
+
+    <idea-version since-build="223"/>
+
+    <description><![CDATA[
+        <b>Ayu Mirage Dark</b> is a carefully refined dark theme inspired by the
+        original Ayu Mirage palette, rebuilt and polished for long coding sessions
+        and modern backend development.<br><br>
+
+        <b>What makes v2 different:</b>
+        <ul>
+            <li>Fully rebalanced Ayu Mirage color palette</li>
+            <li>Improved contrast without increasing eye strain</li>
+            <li>Enhanced readability for Java, Kotlin, and Spring</li>
+            <li>Cleaner lambdas and anonymous class highlighting</li>
+            <li>Consistent UI and editor theming</li>
+        </ul>
+
+        Designed as a stable, daily-driver theme for professional developers.
+    ]]></description>
+
+    <change-notes><![CDATA[
+        <b>2.1.0</b><br>
+        • Major visual refinement across editor and UI<br>
+        • General polish and consistency improvements
+    ]]></change-notes>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider
+                id="ayu-mirage-dark"
+                path="/theme/ayu-mirage.theme.json"/>
+    </extensions>
+
+</idea-plugin>
