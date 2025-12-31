@@ -28,7 +28,7 @@ A modern, aesthetic port of the **Ayu Mirage** color scheme for JetBrains IDEs (
 8. Restart the IDE.
 
 ### Method 2: JetBrains Marketplace
-*(Coming Soon - if you plan to publish it)*
+You can download plugin from Jetbrains Marketplace by searching `Ayu Mirage Dark`
 
 ## 👤 Author
 **Pankaj Mishra**
